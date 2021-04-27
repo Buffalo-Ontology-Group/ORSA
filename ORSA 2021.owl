@@ -1,0 +1,3779 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/ORSA.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/ORSA.owl"
+     versionIRI="http://purl.obolibrary.org/obo/ornaseq/releases/2021-02-10/ORSA.owl">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/ORSA.owl/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="doap" IRI="http://usefulinc.com/ns/doap#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Import>http://purl.obolibrary.org/obo/stato.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/bfo/2019-02-21/bfo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/obi/2018-08-27/obi.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/ornaseq/releases/2018-06-04/ornaseq.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/vo/external/ORNASEQA_IAO_import.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Lucas Serra</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0200115"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000146"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000147"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000534"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000535"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000536"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000537"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000538"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000541"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000542"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000543"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000544"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000545"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000546"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000547"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000548"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000549"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000550"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000551"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000552"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000553"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000554"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000555"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000556"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000557"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000558"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000559"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000560"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000561"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000562"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000563"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000564"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000566"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000567"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000568"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000569"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000571"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000572"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000573"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000574"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000575"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000576"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000578"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ORSA_0000579"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBIws_0000192"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000002"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000569"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000003"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000551"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000004"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000151"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000564"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000005"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000144"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000005"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000544"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000008"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000534"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000009"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000536"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000011"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000143"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000576"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000012"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000150"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000563"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000014"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000152"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000568"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000016"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000560"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000017"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000144"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000543"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000018"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000123"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000124"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000018"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000535"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000019"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000541"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000021"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000136"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000137"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000574"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000022"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000537"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000023"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000023"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000567"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000025"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000123"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:OBI_0002584"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000548"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000030"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0001943"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000153"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000154"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000155"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000031"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:OBI_0002584"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000134"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000031"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000553"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000032"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000139"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000032"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000554"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000034"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:OBI_0002584"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000034"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000550"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000035"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000130"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000035"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000562"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000036"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000132"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:OBI_0002584"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000036"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000547"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000039"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000039"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000579"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000047"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000141"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000047"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000572"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000051"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:OBI_0001271"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000053"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000053"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0200042"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:OBI_0000312"/>
+            <Class abbreviatedIRI="obo:ORNASEQA_0000053"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000153"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000153"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000578"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000154"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000157"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000154"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000566"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000155"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000157"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000155"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+                <Class abbreviatedIRI="obo:ORSA_0000557"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000534"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:ORNASEQA_0000121"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000535"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200115"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000126"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000536"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:ORNASEQA_0000126"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000537"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200115"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000126"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000541"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200041"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200042"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200113"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000543"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0000727"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000544"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:IAO_0000180"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000547"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200036"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000142"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000548"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000530"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000550"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:STATO_0000530"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000551"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000083"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000143"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000553"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0200176"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000554"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200103"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000557"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0200126"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000560"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200041"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200050"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000563"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200115"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000549"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000564"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200050"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000108"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000566"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200114"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000428"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000567"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200051"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200128"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000016"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:STATO_0000076"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000568"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0200053"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000569"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200041"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200051"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000572"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0000727"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200017"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000574"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+            <Class abbreviatedIRI="obo:OBI_0200051"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000576"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0002589"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+                <Class abbreviatedIRI="obo:OBI_0200050"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000578"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:ORSA_0000579"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000293"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
+                <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+        <Class abbreviatedIRI="obo:OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000002"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000003"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000004"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000005"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000008"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000009"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000011"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000012"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000014"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000016"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000120"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000017"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000018"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000019"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000021"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000022"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000023"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000025"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000030"/>
+        <Class abbreviatedIRI="obo:OBI_0001943"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000031"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000032"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000033"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000034"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000035"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000036"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000039"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000040"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000120"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000047"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000140"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000049"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000051"/>
+        <Class abbreviatedIRI="obo:OBIws_0000192"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000052"/>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000053"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+        <Class abbreviatedIRI="obo:IAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000057"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000058"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000120"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000121"/>
+        <Class abbreviatedIRI="obo:OBI_0200171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000123"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000124"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000126"/>
+        <Class abbreviatedIRI="obo:OBI_0200171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000128"/>
+        <Class abbreviatedIRI="obo:IAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000129"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000130"/>
+        <Class abbreviatedIRI="obo:STATO_0000107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000132"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000133"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000058"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000134"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000136"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000137"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000138"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000139"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000140"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000141"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000142"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000143"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000144"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000145"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000146"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000147"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000149"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000133"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000150"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000151"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000152"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000056"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000153"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000147"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000154"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000155"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000156"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000156"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000157"/>
+        <Class abbreviatedIRI="obo:ORNASEQA_0000144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+        <Class abbreviatedIRI="obo:IAO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000534"/>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000535"/>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000536"/>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000537"/>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000538"/>
+        <Class abbreviatedIRI="obo:ORSA_0000533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000541"/>
+        <Class abbreviatedIRI="obo:ORSA_0000538"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000542"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000543"/>
+        <Class abbreviatedIRI="obo:ORSA_0000542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000544"/>
+        <Class abbreviatedIRI="obo:ORSA_0000542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000545"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000546"/>
+        <Class abbreviatedIRI="obo:ORSA_0000545"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000547"/>
+        <Class abbreviatedIRI="obo:ORSA_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000548"/>
+        <Class abbreviatedIRI="obo:ORSA_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000549"/>
+        <Class abbreviatedIRI="obo:ORSA_0000546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000550"/>
+        <Class abbreviatedIRI="obo:ORSA_0000549"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000551"/>
+        <Class abbreviatedIRI="obo:ORSA_0000545"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000552"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000553"/>
+        <Class abbreviatedIRI="obo:ORSA_0000552"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000554"/>
+        <Class abbreviatedIRI="obo:ORSA_0000552"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000555"/>
+        <Class abbreviatedIRI="obo:ORSA_0000552"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000556"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000557"/>
+        <Class abbreviatedIRI="obo:ORSA_0000556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000558"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000559"/>
+        <Class abbreviatedIRI="obo:ORSA_0000558"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000560"/>
+        <Class abbreviatedIRI="obo:ORSA_0000558"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000561"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000562"/>
+        <Class abbreviatedIRI="obo:ORSA_0000561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000563"/>
+        <Class abbreviatedIRI="obo:ORSA_0000561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000564"/>
+        <Class abbreviatedIRI="obo:ORSA_0000561"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000566"/>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000567"/>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000568"/>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000569"/>
+        <Class abbreviatedIRI="obo:ORSA_0000565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000571"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000572"/>
+        <Class abbreviatedIRI="obo:ORSA_0000571"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000573"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000574"/>
+        <Class abbreviatedIRI="obo:ORSA_0000573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000575"/>
+        <Class abbreviatedIRI="obo:ORSA_0000532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000576"/>
+        <Class abbreviatedIRI="obo:ORSA_0000575"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000578"/>
+        <Class abbreviatedIRI="obo:ORSA_0000538"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ORSA_0000579"/>
+        <Class abbreviatedIRI="obo:ORSA_0000538"/>
+    </SubClassOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000001</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000001</AbbreviatedIRI>
+        <Literal>An algorithm used to methodically examine the output of bulk RNA sequencing or single-cell RNA sequencing pipelines in order to explain or interpret RNA sequencing data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000001</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000002</AbbreviatedIRI>
+        <Literal>Tools for Single Cell Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000002</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4994863/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000002</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000002</AbbreviatedIRI>
+        <Literal>An algorithm to better support in silico pseudo-Time reconstruction in Single-Cell RNA-seq ANalysis. TSCAN uses a clusterbased minimum spanning tree approach to order cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000002</AbbreviatedIRI>
+        <Literal xml:lang="en">TSCAN analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000003</AbbreviatedIRI>
+        <Literal>https://www.biorxiv.org/content/10.1101/046110v1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000003</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000003</AbbreviatedIRI>
+        <Literal>an empirical Bayes model implemented as an R package to characterize genes with expression changes in ordered scRNA-seq experiments. SCPattern utilizes the non-parametrical Kolmogorov-Smirnov statistic, thus it has the flexibility to identify genes with a wide variety of types of changes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000003</AbbreviatedIRI>
+        <Literal xml:lang="en">SCPattern analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000004</AbbreviatedIRI>
+        <Literal>an algorithm to to infer regulatory networks, based on ordinary differential equations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000004</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860123/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000004</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000004</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000004</AbbreviatedIRI>
+        <Literal xml:lang="en">SCODE analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000005</AbbreviatedIRI>
+        <Literal>an algorithm that provides a denoised, two or three-dimensional visualization of the complete branching trajectory structure in high-dimensional data. It uses heat-diffusion processes, which naturally denoise the data, to compute cell-cell affinities. Then, PHATE creates a diffusion-potential geometry by free-energy potentials of these processes. This geometry captures high-dimensional trajectory structures, while enabling a natural embedding of the intrinsic data geometry. This embedding accurately visualizes trajectories and data distances, without requiring strict assumptions typically used by path-finding and tree-fitting algorithms, which have recently been used for pseudotime orderings or tree-renderings of cellular data. Furthermore, PHATE supports a wide range of data exploration tasks by providing interpretable overlays on top of the visualization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000005</AbbreviatedIRI>
+        <Literal>https://www.biorxiv.org/content/10.1101/120378v1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000005</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000005</AbbreviatedIRI>
+        <Literal xml:lang="en">PHATE analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000005</AbbreviatedIRI>
+        <Literal>Potential of Heat-diffusion for Affinity-based Trajectory Embedding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000008</AbbreviatedIRI>
+        <Literal>an algorithm that clusters single-cell transcriptomes. SNN-Cliq utilizes the concept of shared nearest neighbor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000008</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6280782/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000008</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000008</AbbreviatedIRI>
+        <Literal xml:lang="en">(SNN)-Cliq analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000008</AbbreviatedIRI>
+        <Literal>shared nearest neighbor-Cliq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000009</AbbreviatedIRI>
+        <Literal>tunable binarization techniques that results in multiple clustering experiments being aggregated to generate one fuzzy consensus partition matrix (CoPaM), which is then binarized to obtain the final binary partitions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000009</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/19734153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000009</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000009</AbbreviatedIRI>
+        <Literal xml:lang="en">Bi-CoPaM analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000011</AbbreviatedIRI>
+        <Literal>an algorithm that uses reversed graph embedding to describe multiple fate
+decisions in a fully unsupervised manner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000011</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764547/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000011</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000011</AbbreviatedIRI>
+        <Literal xml:lang="en">Monocle 2 analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <Literal>an algorithm for the simultaneous reconstruction of gene regulatory networks and identification of cell states in single-cell RNA-seq data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937676/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <Literal xml:lang="en">SCENIC analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000012</AbbreviatedIRI>
+        <Literal>Single-Cell rEgulatory Network Inference and Clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000014</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898467/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000014</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000014</AbbreviatedIRI>
+        <Literal>an algorithm that describes the dynamics of gene expression throughout differentiation directly, including pseudo-time and cell fate of individual cells. SCOUP is based on the Ornstein–Uhlenbeck process, which represents a variable moving toward an attractor with Brownian motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000014</AbbreviatedIRI>
+        <Literal xml:lang="en">SCOUP analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000014</AbbreviatedIRI>
+        <Literal>a probabilistic model to analyze Single-Cell expression data during differentiation with Ornstein–Uhlenbeck Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <Literal>an algorithm and an analytic framework which learns a similarity measure from single-cell RNA-seq data in order to perform dimension reduction, clustering and visualization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <Literal>https://www.nature.com/articles/nmeth.4207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <Literal xml:lang="en">SIMLR analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000016</AbbreviatedIRI>
+        <Literal>single-cell interpretation via multikernel learning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000017</AbbreviatedIRI>
+        <Literal>an algorithm that provides an interpretable graph-like map of the arising data manifold, based on estimating connectivity of manifold partitions. PAGA maps provide interpretable discrete and continuous latent coordinates for both disconnected and continuous structure in data, preserve the global topology of data, allow analyzing data at different resolutions and result in much higher computational efficiency of the typical exploratory data analysis workflow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000017</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6425583/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000017</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000017</AbbreviatedIRI>
+        <Literal xml:lang="en">PAGA analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000017</AbbreviatedIRI>
+        <Literal>Partition-based graph abstraction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000018</AbbreviatedIRI>
+        <Literal>tool for identification of a group of co-expressed genes under a subset of experimental conditions (measurements) present in a gene expression dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000018</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/19734153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000018</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000018</AbbreviatedIRI>
+        <Literal xml:lang="en">BCCA analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000018</AbbreviatedIRI>
+        <Literal>bi-correlation clustering algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <Literal>an algorithm for unsupervised clustering of single-cell RNA-seq data which achieves high accuracy and robustness by combining multiple clustering solutions through a consensus approach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5410170/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <Literal xml:lang="en">SC3 analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000019</AbbreviatedIRI>
+        <Literal>Single Cell Consensus Clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000021</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000021</AbbreviatedIRI>
+        <Literal>an algorithm that shares information across similar cells, via data diffusion, to denoise the cell count matrix and fill in missing transcripts in order to deal with &quot;drop out&quot; found in single-cell RNA sequencing technologies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000021</AbbreviatedIRI>
+        <Literal xml:lang="en">MAGIC analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000021</AbbreviatedIRI>
+        <Literal>Markov affinity-based graph imputation of cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000022</AbbreviatedIRI>
+        <Literal>biclustering approach called “BIclustering by Correlated and Large number of Individual Clustered seeds (BICLIC)” to find comprehensive sets of correlated expression patterns in biclusters using clustered seeds and their expansion with correlation of gene expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000022</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618306/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000022</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000022</AbbreviatedIRI>
+        <Literal xml:lang="en">BICLIC analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000022</AbbreviatedIRI>
+        <Literal>BIclustering by Correlated and Large number of Individual Clustered seeds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000023</AbbreviatedIRI>
+        <Literal>an algorithm for mapping the quantitative energy landscape of single-cell dynamical processes using statistical physics modeling, such that we can obtain transition probabilities between cell states, reconstructed lineages and pseudotemporal ordering of cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000023</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/29415263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000023</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000023</AbbreviatedIRI>
+        <Literal xml:lang="en">scEpath analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000023</AbbreviatedIRI>
+        <Literal>single cell Energy path</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000025</AbbreviatedIRI>
+        <Literal>a Bioconductor software package for examining differential expression of replicated count data. An overdispersed Poisson model is used to account for both biological and technical variability. Empirical Bayes methods are used to moderate the degree of overdispersion across transcripts, improving the reliability of inference.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000025</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2796818/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000025</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000025</AbbreviatedIRI>
+        <Literal xml:lang="en">edgeR analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000030</AbbreviatedIRI>
+        <Literal>a numerically efficient and highly scalable toolbox for an end-to-end analysis of single-cell transcriptomic profiles. CALISTA includes four essential single-cell analyses for cell differentiation studies, including single-cell clustering, reconstruction of cell lineage specification, transition gene identification, and pseudotemporal cell ordering.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000030</AbbreviatedIRI>
+        <Literal>https://www.biorxiv.org/content/10.1101/257550v3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000030</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000030</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000030</AbbreviatedIRI>
+        <Literal>Clustering and Lineage Inference in Single-Cell Transcriptional Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000031</AbbreviatedIRI>
+        <Literal>an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000031</AbbreviatedIRI>
+        <Literal>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000031</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000031</AbbreviatedIRI>
+        <Literal xml:lang="en">Enrichr analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000032</AbbreviatedIRI>
+        <Literal>a two-part, generalized linear model for single-cell transcriptomics bimodal data that parameterizes both of these features: stochastic dropout and characteristic bimodal expression distributions in which expression is either strongly non-zero or non-detectable. Our model provides gene set enrichment analysis tailored to single-cell data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000032</AbbreviatedIRI>
+        <Literal>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0844-5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000032</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000032</AbbreviatedIRI>
+        <Literal xml:lang="en">MAST analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000032</AbbreviatedIRI>
+        <Literal>Model-based Analysis of Single-cell Transcriptomics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000033</AbbreviatedIRI>
+        <Literal>web server application that leverages a powerful enrichment analysis and underlying data environment for comparative analyses of multiple gene lists. It generates heatmaps or connectivity networks that reveal functional features shared or specific to multiple gene lists. ToppCluster uses hypergeometric tests to obtain list-specific feature enrichment P-values for currently 17 categories of annotations of humanortholog genes, and provides user-selectable cutoffs and multiple testing correction methods to control false discovery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000033</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896202/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000033</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000033</AbbreviatedIRI>
+        <Literal xml:lang="en">ToppCluster analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000034</AbbreviatedIRI>
+        <Literal>an algorithm to characterize differences in expression in the presence of distinct expression states within and among biological conditions. We demonstrate that this framework can detect differential expression patterns under a wide range of settings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000034</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5080738/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000034</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000034</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000034</AbbreviatedIRI>
+        <Literal xml:lang="en">scDD analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000035</AbbreviatedIRI>
+        <Literal>an algorithm for training asynchronous Boolean models with single-cell expression data using a novel Boolean state space scoring function. BTR is capable of refining existing Boolean models and reconstructing new Boolean models by improving the match between model prediction and expression data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000035</AbbreviatedIRI>
+        <Literal>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1235-y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000035</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000035</AbbreviatedIRI>
+        <Literal xml:lang="en">BTR analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <Literal>R package which offers a suite of tools for computing and analyzing differential correlations between gene pairs across multiple conditions. To minimize parametric assumptions, DGCA computes empirical p-values via permutation testing. To understand differential correlations at a systems level, DGCA performs higher-order analyses such as measuring the average difference in correlation and multiscale clustering analysis of differential correlation networks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5111277/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <Literal xml:lang="en">DGCA analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000036</AbbreviatedIRI>
+        <Literal>Differential Gene Correlation Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000039</AbbreviatedIRI>
+        <Literal>an algorithm of a agglomerative clustering method to generate a cell state hierarchy where each cluster branch is associated with a principal component of variation that can be used to differentiate two cell states</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000039</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802652/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000039</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000039</AbbreviatedIRI>
+        <Literal xml:lang="en">pcaReduce analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000040</AbbreviatedIRI>
+        <Literal>a scalable algorithm for analyzing single-cell gene expression data. It includes methods for preprocessing,visualization, clustering, pseudotime and trajectory inference, differential expression testing, and simulation of generegulatory networks. Its Python-based implementation efficiently deals with data sets of more than one million cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000040</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5802054/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000040</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000040</AbbreviatedIRI>
+        <Literal>python</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">SCANPY analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000047</AbbreviatedIRI>
+        <Literal>an algorithm for batch correction based on the
+detection of mutual nearest neighbors (MNNs) in the
+high-dimensional expression space. Our approach does
+not rely on predefined or equal population compositions
+across batches; instead, it requires only that a subset of the
+population be shared between batches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000047</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152897/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000047</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000047</AbbreviatedIRI>
+        <Literal xml:lang="en">MNN analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000047</AbbreviatedIRI>
+        <Literal>mutual nearest neighbors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000049</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000049</AbbreviatedIRI>
+        <Literal xml:lang="en">gene set enrichment analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000050</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000050</AbbreviatedIRI>
+        <Literal xml:lang="en">pseudo-time analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000051</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000051</AbbreviatedIRI>
+        <Literal xml:lang="en">raw RNA sequencing expression data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000052</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000052</AbbreviatedIRI>
+        <Literal>A protocol document that contains detailed instructions on how to prepare RNA sequencing data for further analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000052</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing processing protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000053</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000053</AbbreviatedIRI>
+        <Literal>A protocol document that contains detailed instructions on how to prepare RNA sequencing data for clustering analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000053</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing clustering processing protocol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000055</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000055</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing clustered data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000056</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000056</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000057</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000057</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing pseudo-time cell orderings data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000058</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000058</AbbreviatedIRI>
+        <Literal xml:lang="en">gene expression analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000059</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000059</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing gene expression data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000120</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000120</AbbreviatedIRI>
+        <Literal xml:lang="en">multi-purpose analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000121</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000121</AbbreviatedIRI>
+        <Literal xml:lang="en">shared nearest neighbor clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000122</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000122</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing single-cell RNA-Seq dataset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000123</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000123</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing gene expression vector data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000124</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000124</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing bliclustered data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000125</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000125</AbbreviatedIRI>
+        <Literal xml:lang="en">cell clustering analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000126</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000126</AbbreviatedIRI>
+        <Literal xml:lang="en">biclustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000126</AbbreviatedIRI>
+        <Literal>co-clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000128</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en">chromatin accessibility peaks data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000129</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000129</AbbreviatedIRI>
+        <Literal xml:lang="en">network inference analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000130</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000130</AbbreviatedIRI>
+        <Literal xml:lang="en">boolean network model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000132</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing gene expression matrix data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000133</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000133</AbbreviatedIRI>
+        <Literal xml:lang="en">differential gene expression analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000134</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000134</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing ranked enriched terms data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000136</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000136</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing observed count matrix data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000137</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000137</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing imputed count matrix data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000138</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000138</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell imputation analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000139</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000139</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing gene set enrichment analysis data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000140</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000140</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell batch effects correction analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000141</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000141</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing pair-specific batch-correction vector data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000142</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000142</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell trajectory analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000143</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000143</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing cell trajectory data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000144</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000144</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing graph abstraction data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000145</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000145</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing single cell gene expression matrix data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000146</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000146</AbbreviatedIRI>
+        <Literal xml:lang="en">embedding and visualization analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000147</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000147</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell clustering analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000149</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000149</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell differential expression analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000150</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000150</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing gene set data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000151</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000151</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing inferred network data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000152</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000152</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing pseudo-time data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000153</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000153</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA single-cell clustering analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000154</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000154</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA pseudo-time analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000155</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000155</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA lineage inference analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000156</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000156</AbbreviatedIRI>
+        <Literal xml:lang="en">lineage inference analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000157</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORNASEQA_0000157</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing lineage inference graph data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000532</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORSA_0000532</AbbreviatedIRI>
+        <Literal>An algorithm used to methodically examine the output of bulk RNA sequencing or single-cell RNA sequencing pipelines in order to explain or interpret RNA sequencing data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000532</AbbreviatedIRI>
+        <Literal xml:lang="en">RNA sequencing analysis algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000533</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000533</AbbreviatedIRI>
+        <Literal xml:lang="en">cell clustering algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000534</AbbreviatedIRI>
+        <Literal>an algorithm that clusters single-cell transcriptomes. SNN-Cliq utilizes the concept of shared nearest neighbor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000534</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6280782/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000534</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000534</AbbreviatedIRI>
+        <Literal xml:lang="en">(SNN)-Cliq algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000534</AbbreviatedIRI>
+        <Literal>shared nearest neighbor-Cliq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000535</AbbreviatedIRI>
+        <Literal>tool for identification of a group of co-expressed genes under a subset of experimental conditions (measurements) present in a gene expression dataset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000535</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/19734153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000535</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000535</AbbreviatedIRI>
+        <Literal xml:lang="en">BCCA algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000535</AbbreviatedIRI>
+        <Literal>bi-correlation clustering algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000536</AbbreviatedIRI>
+        <Literal>tunable binarization techniques that results in multiple clustering experiments being aggregated to generate one fuzzy consensus partition matrix (CoPaM), which is then binarized to obtain the final binary partitions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000536</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/19734153</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000536</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000536</AbbreviatedIRI>
+        <Literal xml:lang="en">Bi-CoPaM algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000537</AbbreviatedIRI>
+        <Literal>biclustering approach called “BIclustering by Correlated and Large number of Individual Clustered seeds (BICLIC)” to find comprehensive sets of correlated expression patterns in biclusters using clustered seeds and their expansion with correlation of gene expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000537</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618306/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000537</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000537</AbbreviatedIRI>
+        <Literal xml:lang="en">BICLIC algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000537</AbbreviatedIRI>
+        <Literal>BIclustering by Correlated and Large number of Individual Clustered seeds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000538</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000538</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell clustering algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <Literal>an algorithm for unsupervised clustering of single-cell RNA-seq data which achieves high accuracy and robustness by combining multiple clustering solutions through a consensus approach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5410170/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <Literal xml:lang="en">SC3 algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000541</AbbreviatedIRI>
+        <Literal>Single Cell Consensus Clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000542</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000542</AbbreviatedIRI>
+        <Literal xml:lang="en">embedding and visualization algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000543</AbbreviatedIRI>
+        <Literal>an algorithm that provides an interpretable graph-like map of the arising data manifold, based on estimating connectivity of manifold partitions. PAGA maps provide interpretable discrete and continuous latent coordinates for both disconnected and continuous structure in data, preserve the global topology of data, allow analyzing data at different resolutions and result in much higher computational efficiency of the typical exploratory data analysis workflow</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000543</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6425583/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000543</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000543</AbbreviatedIRI>
+        <Literal xml:lang="en">PAGA algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000543</AbbreviatedIRI>
+        <Literal>Partition-based graph abstraction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000544</AbbreviatedIRI>
+        <Literal>an algorithm that provides a denoised, two or three-dimensional visualization of the complete branching trajectory structure in high-dimensional data. It uses heat-diffusion processes, which naturally denoise the data, to compute cell-cell affinities. Then, PHATE creates a diffusion-potential geometry by free-energy potentials of these processes. This geometry captures high-dimensional trajectory structures, while enabling a natural embedding of the intrinsic data geometry. This embedding accurately visualizes trajectories and data distances, without requiring strict assumptions typically used by path-finding and tree-fitting algorithms, which have recently been used for pseudotime orderings or tree-renderings of cellular data. Furthermore, PHATE supports a wide range of data exploration tasks by providing interpretable overlays on top of the visualization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000544</AbbreviatedIRI>
+        <Literal>https://www.biorxiv.org/content/10.1101/120378v1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000544</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000544</AbbreviatedIRI>
+        <Literal xml:lang="en">PHATE algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000544</AbbreviatedIRI>
+        <Literal>Potential of Heat-diffusion for Affinity-based Trajectory Embedding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000545</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000545</AbbreviatedIRI>
+        <Literal xml:lang="en">gene expression analysis algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000546</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000546</AbbreviatedIRI>
+        <Literal xml:lang="en">differential gene expression analysis algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <Literal>R package which offers a suite of tools for computing and analyzing differential correlations between gene pairs across multiple conditions. To minimize parametric assumptions, DGCA computes empirical p-values via permutation testing. To understand differential correlations at a systems level, DGCA performs higher-order analyses such as measuring the average difference in correlation and multiscale clustering analysis of differential correlation networks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5111277/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <Literal xml:lang="en">DGCA algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000547</AbbreviatedIRI>
+        <Literal>Differential Gene Correlation Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000548</AbbreviatedIRI>
+        <Literal>a Bioconductor software package for examining differential expression of replicated count data. An overdispersed Poisson model is used to account for both biological and technical variability. Empirical Bayes methods are used to moderate the degree of overdispersion across transcripts, improving the reliability of inference.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000548</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2796818/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000548</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000548</AbbreviatedIRI>
+        <Literal xml:lang="en">edgeR algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000549</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000549</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell differential expression algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000550</AbbreviatedIRI>
+        <Literal>an algorithm to characterize differences in expression in the presence of distinct expression states within and among biological conditions. We demonstrate that this framework can detect differential expression patterns under a wide range of settings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000550</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5080738/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000550</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000550</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000550</AbbreviatedIRI>
+        <Literal xml:lang="en">scDD algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000551</AbbreviatedIRI>
+        <Literal>https://www.biorxiv.org/content/10.1101/046110v1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000551</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORSA_0000551</AbbreviatedIRI>
+        <Literal>an empirical Bayes model implemented as an R package to characterize genes with expression changes in ordered scRNA-seq experiments. SCPattern utilizes the non-parametrical Kolmogorov-Smirnov statistic, thus it has the flexibility to identify genes with a wide variety of types of changes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000551</AbbreviatedIRI>
+        <Literal xml:lang="en">SCPattern  algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000552</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000552</AbbreviatedIRI>
+        <Literal xml:lang="en">gene set enrichment analysis algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000553</AbbreviatedIRI>
+        <Literal>an integrative web-based and mobile software application that includes new gene-set libraries, an alternative approach to rank enriched terms, and various interactive visualization approaches to display enrichment results using the JavaScript library, Data Driven Documents (D3). The software can also be embedded into any tool that performs gene list analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000553</AbbreviatedIRI>
+        <Literal>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000553</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000553</AbbreviatedIRI>
+        <Literal xml:lang="en">Enrichr algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000554</AbbreviatedIRI>
+        <Literal>a two-part, generalized linear model for single-cell transcriptomics bimodal data that parameterizes both of these features: stochastic dropout and characteristic bimodal expression distributions in which expression is either strongly non-zero or non-detectable. Our model provides gene set enrichment analysis tailored to single-cell data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000554</AbbreviatedIRI>
+        <Literal>https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0844-5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000554</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000554</AbbreviatedIRI>
+        <Literal xml:lang="en">MAST algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000554</AbbreviatedIRI>
+        <Literal>Model-based Analysis of Single-cell Transcriptomics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000555</AbbreviatedIRI>
+        <Literal>web server application that leverages a powerful enrichment analysis and underlying data environment for comparative analyses of multiple gene lists. It generates heatmaps or connectivity networks that reveal functional features shared or specific to multiple gene lists. ToppCluster uses hypergeometric tests to obtain list-specific feature enrichment P-values for currently 17 categories of annotations of humanortholog genes, and provides user-selectable cutoffs and multiple testing correction methods to control false discovery.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000555</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2896202/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000555</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000555</AbbreviatedIRI>
+        <Literal xml:lang="en">ToppCluster algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000556</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000556</AbbreviatedIRI>
+        <Literal xml:lang="en">lineage inference algoritm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000557</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000557</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA lineage inference algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000558</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000558</AbbreviatedIRI>
+        <Literal xml:lang="en">multi-purpose algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000559</AbbreviatedIRI>
+        <Literal>a scalable algorithm for analyzing single-cell gene expression data. It includes methods for preprocessing,visualization, clustering, pseudotime and trajectory inference, differential expression testing, and simulation of generegulatory networks. Its Python-based implementation efficiently deals with data sets of more than one million cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000559</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5802054/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000559</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000559</AbbreviatedIRI>
+        <Literal>python</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000559</AbbreviatedIRI>
+        <Literal xml:lang="en">SCANPY algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <Literal>an algorithm and an analytic framework which learns a similarity measure from single-cell RNA-seq data in order to perform dimension reduction, clustering and visualization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <Literal>https://www.nature.com/articles/nmeth.4207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <Literal xml:lang="en">SIMLR algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000560</AbbreviatedIRI>
+        <Literal>single-cell interpretation via multikernel learning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000561</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000561</AbbreviatedIRI>
+        <Literal xml:lang="en">network inference algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000562</AbbreviatedIRI>
+        <Literal>an algorithm for training asynchronous Boolean models with single-cell expression data using a novel Boolean state space scoring function. BTR is capable of refining existing Boolean models and reconstructing new Boolean models by improving the match between model prediction and expression data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000562</AbbreviatedIRI>
+        <Literal>https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1235-y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000562</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000562</AbbreviatedIRI>
+        <Literal xml:lang="en">BTR algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <Literal>an algorithm for the simultaneous reconstruction of gene regulatory networks and identification of cell states in single-cell RNA-seq data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5937676/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <Literal xml:lang="en">SCENIC algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000563</AbbreviatedIRI>
+        <Literal>Single-Cell rEgulatory Network Inference and Clustering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000564</AbbreviatedIRI>
+        <Literal>an algorithm to to infer regulatory networks, based on ordinary differential equations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000564</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5860123/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000564</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <AbbreviatedIRI>obo:ORSA_0000564</AbbreviatedIRI>
+        <Literal>R</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000564</AbbreviatedIRI>
+        <Literal xml:lang="en">SCODE algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000565</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000565</AbbreviatedIRI>
+        <Literal xml:lang="en">pseudo-time algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000566</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000566</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA pseudo-time algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000567</AbbreviatedIRI>
+        <Literal>an algorithm for mapping the quantitative energy landscape of single-cell dynamical processes using statistical physics modeling, such that we can obtain transition probabilities between cell states, reconstructed lineages and pseudotemporal ordering of cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000567</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pubmed/29415263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000567</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000567</AbbreviatedIRI>
+        <Literal xml:lang="en">scEpath algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000567</AbbreviatedIRI>
+        <Literal>single cell Energy path</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000568</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898467/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000568</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORSA_0000568</AbbreviatedIRI>
+        <Literal>an algorithm that describes the dynamics of gene expression throughout differentiation directly, including pseudo-time and cell fate of individual cells. SCOUP is based on the Ornstein–Uhlenbeck process, which represents a variable moving toward an attractor with Brownian motion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000568</AbbreviatedIRI>
+        <Literal xml:lang="en">SCOUP algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000568</AbbreviatedIRI>
+        <Literal>a probabilistic model to analyze Single-Cell expression data during differentiation with Ornstein–Uhlenbeck Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:ORSA_0000569</AbbreviatedIRI>
+        <Literal>Tools for Single Cell Analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000569</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4994863/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000569</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORSA_0000569</AbbreviatedIRI>
+        <Literal>An algorithm to better support in silico pseudo-Time reconstruction in Single-Cell RNA-seq ANalysis. TSCAN uses a clusterbased minimum spanning tree approach to order cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000569</AbbreviatedIRI>
+        <Literal xml:lang="en">TSCAN algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000571</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000571</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell batch effects correction algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000572</AbbreviatedIRI>
+        <Literal>an algorithm for batch correction based on the
+detection of mutual nearest neighbors (MNNs) in the
+high-dimensional expression space. Our approach does
+not rely on predefined or equal population compositions
+across batches; instead, it requires only that a subset of the
+population be shared between batches</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000572</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6152897/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000572</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000572</AbbreviatedIRI>
+        <Literal xml:lang="en">MNN algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000572</AbbreviatedIRI>
+        <Literal>mutual nearest neighbors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000573</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000573</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell imputation algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000574</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:definition"/>
+        <AbbreviatedIRI>obo:ORSA_0000574</AbbreviatedIRI>
+        <Literal>an algorithm that shares information across similar cells, via data diffusion, to denoise the cell count matrix and fill in missing transcripts in order to deal with &quot;drop out&quot; found in single-cell RNA sequencing technologies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000574</AbbreviatedIRI>
+        <Literal xml:lang="en">MAGIC algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:ORSA_0000574</AbbreviatedIRI>
+        <Literal>Markov affinity-based graph imputation of cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000575</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000575</AbbreviatedIRI>
+        <Literal xml:lang="en">single-cell trajectory algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000576</AbbreviatedIRI>
+        <Literal>an algorithm that uses reversed graph embedding to describe multiple fate
+decisions in a fully unsupervised manner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000576</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5764547/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000576</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000576</AbbreviatedIRI>
+        <Literal xml:lang="en">Monocle 2 algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000578</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000578</AbbreviatedIRI>
+        <Literal xml:lang="en">CALISTA single-cell clustering algorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:ORSA_0000579</AbbreviatedIRI>
+        <Literal>an algorithm of a agglomerative clustering method to generate a cell state hierarchy where each cluster branch is associated with a principal component of variation that can be used to differentiate two cell states</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:ORSA_0000579</AbbreviatedIRI>
+        <Literal>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802652/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:ORSA_0000579</AbbreviatedIRI>
+        <IRI>http://orcid.org/0000-0002-2104-0568</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:ORSA_0000579</AbbreviatedIRI>
+        <Literal xml:lang="en">pcaReduce algorithm</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
